@@ -14,8 +14,7 @@ Introducing "CauseNavigator" – the ultimate donation app that revolutionizes t
 - **Empowering Generosity**: CauseNavigator transforms generosity into a powerful force for positive change, fostering a community dedicated to making a difference.
 
 ### Idea
-![Initial sketch](https://github.com/mrataeran/CauseNavigator/blob/main/causenav-sketch.png?raw=true)
-
+<img src="https://github.com/mrataeran/CauseNavigator/blob/main/causenav-sketch.png?raw=true" width="500" height="300" />
 
 ### Description of Technology Usage
 
