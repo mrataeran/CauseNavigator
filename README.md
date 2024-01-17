@@ -1,2 +1,2 @@
-# startup
-Startup application for BYU CS260.
+# CauseNavigator
+Introducing "CauseNavigator" – the ultimate donation app that revolutionizes the way you give. Connecting compassionate individuals with verified and transparent charitable organizations, CauseNavigator makes donating a seamless and empowering experience. Easily browse a variety of causes, make secure one-time or recurring donations, and witness the real-time impact of your contributions. With CauseNavigator, your generosity becomes a force for positive change. Join us in creating a world where giving is not just easy but truly transformative. Give with purpose, give with CauseNavigator.
