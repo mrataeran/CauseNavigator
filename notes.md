@@ -206,5 +206,3 @@ You can think of a set of DNS records like a business listing on Yelp. That list
    ```markdown
    1.1.168.192.in-addr.arpa.   IN   PTR   example.com.
    ```
-
-Understanding DNS and its records is crucial for web developers to manage domain configurations and ensure smooth internet resource access.
