@@ -130,3 +130,81 @@
 - Use t3.nano instance for course requirements.
 - Upgrade if server performance is inadequate.
 - Consider stopping the server when not in use to save costs.
+
+# DNS and Records
+
+## Domain Name System (DNS)
+DNS is a decentralized naming system that translates human-readable domain names into IP addresses, allowing users to access resources on the internet. It consists of a hierarchical structure with different components.
+
+### Components of DNS:
+
+1. **Domain Name:** The human-readable name used to identify a resource on the internet.
+2. **Top-Level Domain (TLD):** The highest level in the DNS hierarchy, such as .com, .org, .net.
+3. **Second-Level Domain (SLD):** Directly beneath the TLD, it is the main part of the domain name.
+4. **Subdomain:** A subdivision of a domain, used to organize and navigate within a website.
+
+## DNS Records
+
+DNS records (aka zone files) are instructions that live in authoritative DNS servers and provide information about a domain including what IP address is associated with that domain and how to handle requests for that domain. These records consist of a series of text files written in what is known as DNS syntax. DNS syntax is just a string of characters used as commands that tell the DNS server what to do. All DNS records also have a ‘TTL’, which stands for time-to-live, and indicates how often a DNS server will refresh that record.
+
+You can think of a set of DNS records like a business listing on Yelp. That listing will give you a bunch of useful information about a business such as their location, hours, services offered, etc. All domains are required to have at least a few essential DNS records for a user to be able to access their website using a domain name, and there are several optional records that serve additional purposes.
+
+### Common DNS Record Types:
+
+1. **A (Address) Record:**
+   - Maps a domain or subdomain to an IPv4 address.
+
+   Example:
+   ```markdown
+   example.com.      IN   A       192.168.1.1
+   ```
+
+2. **AAAA (IPv6 Address) Record:**
+   - Maps a domain or subdomain to an IPv6 address.
+
+   Example:
+   ```markdown
+   example.com.      IN   AAAA    2001:0db8:85a3:0000:0000:8a2e:0370:7334
+   ```
+
+3. **CNAME (Canonical Name) Record:**
+   - Creates an alias for one domain to another.
+
+   Example:
+   ```markdown
+   www           IN    CNAME    example.com.
+   ```
+
+4. **MX (Mail Exchange) Record:**
+   - Specifies mail servers responsible for receiving emails on behalf of the domain.
+
+   Example:
+   ```markdown
+   example.com.      IN   MX   10   mail.example.com.
+   ```
+
+5. **TXT (Text) Record:**
+   - Stores text information. Often used for verification and authentication.
+
+   Example:
+   ```markdown
+   example.com.      IN   TXT   "v=spf1 mx -all"
+   ```
+
+6. **NS (Name Server) Record:**
+   - Specifies authoritative DNS servers for the domain.
+
+   Example:
+   ```markdown
+   example.com.      IN   NS   ns1.exampledns.com.
+   ```
+
+7. **PTR (Pointer) Record:**
+   - Used for reverse DNS lookups to map an IP address to a domain.
+
+   Example:
+   ```markdown
+   1.1.168.192.in-addr.arpa.   IN   PTR   example.com.
+   ```
+
+Understanding DNS and its records is crucial for web developers to manage domain configurations and ensure smooth internet resource access.
