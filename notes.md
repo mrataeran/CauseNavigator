@@ -54,3 +54,79 @@
 
 8. **GitHub Actions:**
    - Automate workflows by using GitHub Actions for tasks like testing, building, and deploying.
+
+
+# Amazon Web Services - EC2
+
+## Overview
+- Renting a web server from a cloud provider like Amazon Web Services (AWS) is preferable to hosting on a personal device due to availability, bandwidth, and security concerns.
+- AWS provides a cost-effective solution with data centers in various locations globally.
+
+## Creating an AWS Server Instance
+1. **Login to AWS Console**
+   - Open the AWS console in your browser and log in.
+
+2. **Navigate to EC2 Service**
+   - Go to the EC2 service.
+
+3. **Change Region**
+   - Change the region to US East (N. Virginia) - us-east-1 for optimal availability.
+
+4. **Launch Instance**
+   - Select "Launch instance" to create a new server.
+
+5. **Instance Configuration**
+   - Give the instance a meaningful name.
+   - Use the provided class AMI (ami-0b009f6c56cdd83ed).
+   - Choose instance type (e.g., t3.nano, t3.micro).
+
+6. **Key Pair**
+   - Create or use an existing key pair for SSH access.
+   - Save the key pair securely.
+
+7. **Network Settings**
+   - Enable auto-assign public IP address.
+   - Configure firewall (security group) to allow SSH, HTTP, and HTTPS traffic.
+
+8. **Advanced Details (Optional)**
+   - For T3 class servers, consider changing Credit specification to Unlimited.
+
+9. **Launch Instance**
+   - Review settings and launch the instance.
+
+10. **Accessing the Web Server**
+   - Once running, copy the public IP address.
+   - Open a browser and paste the IP with the prefix http://.
+   - Confirm the server's default web page is visible.
+
+## SSH into Your Server
+- Use SSH to remote shell into the server.
+   ```bash
+   ssh -i [key pair file] ubuntu@[ip address]
+   ```
+
+## Keeping the Same Public IP Address
+- Stopping the server changes its public IP address.
+- Options to maintain the same IP:
+   1. Never stop the server.
+   2. Assign an Elastic IP address (recommended).
+
+## Assigning Elastic IP
+1. **Open AWS Console**
+   - Navigate to EC2 service.
+
+2. **Elastic IPs**
+   - In the left menu, select Network & Security > Elastic IPs.
+
+3. **Allocate Elastic IP**
+   - Press "Allocate Elastic IP address."
+
+4. **Associate Elastic IP**
+   - Select the allocated address and press "Actions."
+   - Choose "Associate Elastic IP address."
+   - Select your server instance and press "Associate."
+
+## Server Sizing Recommendations
+- Use t3.nano instance for course requirements.
+- Upgrade if server performance is inadequate.
+- Consider stopping the server when not in use to save costs.
