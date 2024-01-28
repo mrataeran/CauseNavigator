@@ -262,3 +262,115 @@ sudo service caddy restart
 ```
 
 - Now, accessing your domain via a browser will display a lock icon, indicating a secure connection with an automatically issued Let's Encrypt certificate.
+
+# HTML Class Notes
+
+## Introduction to HTML
+
+- **HTML**: HyperText Markup Language
+- **Purpose**: Used to create the structure of a web page.
+- **Markup Language**: Consists of tags that define elements on a page.
+
+## Basic HTML Structure
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <!-- Content goes here -->
+</body>
+</html>
+```
+
+- `<!DOCTYPE html>`: Defines the document type and version of HTML.
+- `<html>`: Root element.
+- `<head>`: Contains meta-information about the HTML document.
+- `<title>`: Sets the title of the document (displayed in the browser tab).
+- `<body>`: Contains the content of the HTML document.
+
+## HTML Elements
+
+- **Tag**: Basic building block of HTML.
+- **Attributes**: Provide additional information about an element.
+
+Example of an element:
+
+```html
+<p class="intro">This is a paragraph.</p>
+```
+
+- `<p>`: Paragraph tag.
+- `class="intro"`: Attribute specifying the class of the element.
+
+## Common HTML Tags
+
+- `<h1>` to `<h6>`: Headings (largest to smallest).
+- `<p>`: Paragraph.
+- `<a>`: Anchor (creates hyperlinks).
+- `<img>`: Image.
+- `<ul>`: Unordered list.
+- `<ol>`: Ordered list.
+- `<li>`: List item.
+- `<div>`: Division (used for grouping and styling).
+- `<span>`: Inline division.
+
+## Hyperlinks and Images
+
+### Hyperlinks
+
+```html
+<a href="https://www.example.com" target="_blank">Visit Example</a>
+```
+
+- `href`: URL of the link.
+- `target="_blank"`: Opens the link in a new tab or window.
+
+### Images
+
+```html
+<img src="image.jpg" alt="Description">
+```
+
+- `src`: Path to the image file.
+- `alt`: Alternative text for accessibility.
+
+## Lists
+
+### Unordered List
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+```
+
+### Ordered List
+
+```html
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+</ol>
+```
+
+## Forms
+
+```html
+<form action="/submit" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+```
+
+- `action`: URL where the form data will be submitted.
+- `method`: HTTP method (e.g., "get" or "post").
+
