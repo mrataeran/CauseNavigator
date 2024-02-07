@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CauseNavigator</title>
+  </head>
+  <body>
+    <header>
+      <h1>CauseNavigator</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="donate.html">Donate</a>
+        <a href="about.html">About us</a>
+        <a href="signup.html">Sign up</a>
+        <a href="login.html">Log in</a>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section id="signup-section">
+        <h2>Create an account</h2>
+        <form action="/signup" method="post" id="signup-form">
+          <label for="fNameInput">First Name:</label>
+          <input type="text" name="fName" id="fNameInput" />
+          <br />
+          <label for="lNameInput">Last Name:</label>
+          <input type="text" name="lName" id="lNameInput" />
+          <br />
+          <label for="emailInput">Email:</label>
+          <input type="email" name="email" id="emailInput" />
+          <br />
+          <label for="passwordInput">New Password:</label>
+          <input type="password" name="password" id="passwordInput" />
+          <br />
+          <label for="passwordInputConf">Confirm Password:</label>
+          <input type="password" name="passwordConf" id="passwordInputConf" />
+          <br />
+          <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="/login">Log in here</a>.</p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 CauseNavigator. All rights reserved.</p>
+      <a href="https://github.com/mrataeran/CauseNavigator">Github</a>
+    </footer>
+  </body>
+</html>
