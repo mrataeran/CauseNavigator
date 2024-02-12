@@ -49,3 +49,26 @@ WebSocket technology is integrated to support real-time data communication. This
 #### Web Framework - React for Components and Routing
 
 CauseNavigator utilizes React as a web framework to enhance the development of components and manage request routing. React enables the creation of reusable UI components, ensuring efficient and scalable development while facilitating seamless navigation within the app.
+
+### HTML Deliverable
+
+For this deliverable, I meticulously crafted the foundational structure of my application using HTML, ensuring a seamless and engaging user experience.
+
+#### Diverse HTML Pages
+Developed a total of 10 HTML pages, each serving a unique purpose. These include the home, about, news, notifications, login, signup, profile, organization profile, and article pages, providing users with a comprehensive and intuitive navigation flow.
+
+#### Thoughtful Interconnectivity
+Integrated a cohesive navigation bar, ensuring seamless transitions between all 10 pages. Additionally, strategically placed links within news articles allow users to effortlessly access and explore the complete articles.
+
+#### Rich Textual Content
+Enriched all HTML pages with essential textual content, ensuring users receive comprehensive information and an immersive experience.
+
+#### Visual Appeal with Images
+Incorporated user and organization profile pictures, adding a visually appealing element to the pages and enhancing the overall aesthetic of the application.
+
+#### Streamlined User Interaction
+Implemented individual signup and login forms, optimizing the user experience during account creation and authentication processes.
+
+#### Cutting-Edge WebSocket Integration
+Leveraged WebSocket technology to introduce real-time notifications and dynamic news functionality, offering users an interactive and up-to-the-minute experience. This innovation enhances user engagement and keeps them informed in real-time.
+
