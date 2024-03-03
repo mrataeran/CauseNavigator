@@ -52,8 +52,6 @@ CauseNavigator utilizes React as a web framework to enhance the development of c
 
 ## HTML Deliverable
 
-➡️ The following details highlight the essential aspects of the `Startup HTML` deliverable:
-
 - **HTML Pages**: Created a total of 10 HTML pages, encompassing key sections such as home, about, news, notifications, login, signup, profile, organization profile, and article pages, forming the backbone of the application's structure.
 
 - **Interconnected Navigation**: Established a seamless user experience by integrating all pages through a cohesive navigation bar. Users can effortlessly navigate between different sections, promoting intuitive exploration.
@@ -65,3 +63,22 @@ CauseNavigator utilizes React as a web framework to enhance the development of c
 - **User Authentication**: Implemented individual signup and login forms, contributing to a secure and personalized user experience. These forms facilitate user account creation and authentication processes.
 
 - **WebSocket Integration**: Leveraged WebSocket technology to introduce real-time notifications and dynamic news functionality. Users can stay informed with instant updates, enhancing the overall interactivity of the application.
+
+# CSS Deliverable
+
+## CSS Deployment
+- **CSS Deployment:** Successfully deployed the Simon CSS to the production environment, enhancing the visual aesthetics and user interface of the startup application.
+- **GitHub Repository Link:** The GitHub repository for the startup application is prominently displayed on the home page. Users and developers can easily access the repository to explore the source code, contribute, and stay informed about updates.
+- **Git Repository Modifications:**
+  - Commits: Maintained a consistent and well-documented history with at least 10 git commits spread throughout the assignment period.
+  - README.md: Updated the README file to reflect the completion of the CSS deliverable, providing clear information on the modifications and additions made.
+
+## CSS Styling Overview
+- **Properly Styled CSS:**
+  - **Header, Footer, and Main Content Body:** Applied styles to ensure a visually appealing and cohesive design across the entire application, creating a unified look for the header, footer, and main content body.
+  - **Navigation Elements:** Styled navigation elements for clarity and responsiveness, ensuring an intuitive user experience.
+  - **Responsive Design:** Implemented responsive styles to adapt the application to varying window sizes, enhancing accessibility and usability.
+  - **Application Elements:** Ensured consistent and visually appealing styles for application elements, contributing to a polished and professional appearance.
+  - **Application Text Content:** Styled text content for readability and consistency, maintaining a harmonious visual flow throughout the application.
+  - **Application Images:** Applied styles to enhance the presentation of images, creating a visually engaging experience for users.
+
