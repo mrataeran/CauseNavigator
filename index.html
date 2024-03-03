@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
             ><img
@@ -47,9 +47,6 @@
                 <a class="nav-link" href="news.html">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="signup.html">Sign up</a>
               </li>
               <li class="nav-item">
@@ -62,9 +59,9 @@
     </header>
 
     <main>
-        <video autoplay muted controls id="myVideo" width="100%">
-          <source src="images/rain.mp4" type="video/mp4" />
-        </video>
+      <video autoplay muted controls id="myVideo" width="100%">
+        <source src="images/rain.mp4" type="video/mp4" />
+      </video>
 
       <div id="hero">
         <div
@@ -110,91 +107,200 @@
             <div class="lc-block ms-6 me-6 mt-4">
               <div editable="rich">
                 <p class="lead">
-                  Doing good has never been easier 66,000+ organizations Ready
-                  for you to give to Over $1 billion Raised each year on
-                  CauseNavigator 4.9 out of 5 stars With 103,000+ verified
-                  reviews.
+                  Every gift has an impact. Join over 1.5 million people giving
+                  to over 66,000 organizations and places of worship they care
+                  about. Show your support anywhere. At any time.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section id="charity-news">
-        <h2>Latest News</h2>
 
-        <article>
-          <h3>Empowering Education: New Scholarships Announced</h3>
-          <p>
-            In our ongoing commitment to education, we are excited to announce
-            the launch of new scholarship programs aimed at empowering students
-            worldwide. Learn more about how these scholarships will make a
-            positive impact on education accessibility.
-          </p>
-          <a href="article.html">Read more</a>
-        </article>
+      <div id="charity-news">
+        <h2 id="news-header">Latest News</h2>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img
+                    src="https://borgenproject.org/wp-content/uploads/10439420976_28e7cfd55d_z.jpg"
+                    alt="thumb"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold"
+                    >Flash news</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8 grid-margin">
+              <h4 class="mb-2 font-weight-600">
+                Empowering Education: New Scholarships Announced
+              </h4>
+              <div class="fs-13 mb-2">10 Minutes ago</div>
+              <p class="mb-0">
+                In our ongoing commitment to education, we are excited to
+                announce the launch of new scholarship programs aimed at
+                empowering students worldwide. Learn more about how these
+                scholarships will make a positive impact on education
+                accessibility.
+              </p>
+            </div>
+          </div>
 
-        <article>
-          <h3>Community Outreach: Supporting Local Initiatives</h3>
-          <p>
-            We believe in the strength of local communities. Discover how our
-            recent community outreach initiatives are making a difference in
-            collaboration with local organizations. Join us in building a
-            stronger, more connected world.
-          </p>
-          <a href="article.html">Read more</a>
-        </article>
+          <div class="row">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img
+                    src="https://borgenproject.org/wp-content/uploads/10439420976_28e7cfd55d_z.jpg"
+                    alt="thumb"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold"
+                    >Flash news</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8 grid-margin">
+              <h4 class="mb-2 font-weight-600">
+                Empowering Education: New Scholarships Announced
+              </h4>
+              <div class="fs-13 mb-2">10 Minutes ago</div>
+              <p class="mb-0">
+                In our ongoing commitment to education, we are excited to
+                announce the launch of new scholarship programs aimed at
+                empowering students worldwide. Learn more about how these
+                scholarships will make a positive impact on education
+                accessibility.
+              </p>
+            </div>
+          </div>
 
-        <!-- Add more articles as needed -->
+          <div class="row">
+            <div class="col-sm-4 grid-margin">
+              <div class="position-relative">
+                <div class="rotate-img">
+                  <img
+                    src="https://borgenproject.org/wp-content/uploads/10439420976_28e7cfd55d_z.jpg"
+                    alt="thumb"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="badge-positioned">
+                  <span class="badge badge-danger font-weight-bold"
+                    >Flash news</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8 grid-margin">
+              <h4 class="mb-2 font-weight-600">
+                Empowering Education: New Scholarships Announced
+              </h4>
+              <div class="fs-13 mb-2">10 Minutes ago</div>
+              <p class="mb-0">
+                In our ongoing commitment to education, we are excited to
+                announce the launch of new scholarship programs aimed at
+                empowering students worldwide. Learn more about how these
+                scholarships will make a positive impact on education
+                accessibility.
+              </p>
+            </div>
+          </div>
+        </div>
 
-        <a href="news.html">View All News</a>
-      </section>
+        <a href="news.html" id="all-news-button" class="btn btn-primary"
+          >View All News</a
+        >
+      </div>
 
-      <!-- Call to action -->
-      <section>
-        <p>
-          Every gift has an impact. Join over 1.5 million people giving to over
-          66,000 organizations <br />and places of worship they care about. Show
-          your support anywhere. At any time.
-        </p>
-      </section>
+      <section id="features">
+        <div class="container mt-5">
+          <div class="row">
+            <!-- Feature Cards -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Seamless Donation Experience</h5>
+                  <p class="card-text">
+                    CauseNavigator provides a user-friendly interface for
+                    effortless browsing of various causes, allowing users to
+                    explore and support the ones they are passionate about.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-      <section>
-        <!-- Features -->
-        <ul>
-          <li>
-            <strong>Seamless Donation Experience:</strong> CauseNavigator
-            provides a user-friendly interface for effortless browsing of
-            various causes, allowing users to explore and support the ones they
-            are passionate about.
-          </li>
-          <li>
-            <strong>Verified Charitable Organizations:</strong> Connects users
-            with trustworthy and transparent charitable organizations, ensuring
-            the legitimacy of the causes presented on the platform.
-          </li>
-          <li>
-            <strong>Real-time Impact Tracking:</strong> Users can witness the
-            immediate impact of their contributions, providing transparency and
-            a sense of accomplishment.
-          </li>
-          <li>
-            <strong>Secure Transactions:</strong> Enables users to make secure
-            one-time or recurring donations, ensuring the safety of their
-            financial transactions.
-          </li>
-          <li>
-            <strong>Empowering Generosity:</strong> CauseNavigator transforms
-            generosity into a powerful force for positive change, fostering a
-            community dedicated to making a difference.
-          </li>
-        </ul>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Verified Charitable Organizations</h5>
+                  <p class="card-text">
+                    Connects users with trustworthy and transparent charitable
+                    organizations, ensuring the legitimacy of the causes
+                    presented on the platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Center the last two cards -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Real-time Impact Tracking</h5>
+                  <p class="card-text">
+                    Users can witness the immediate impact of their
+                    contributions, providing transparency and a sense of
+                    accomplishment.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mx-auto">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Secure Transactions</h5>
+                  <p class="card-text">
+                    Enables users to make secure one-time or recurring
+                    donations, ensuring the safety of their financial
+                    transactions.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mx-auto">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Empowering Generosity</h5>
+                  <p class="card-text">
+                    CauseNavigator transforms generosity into a powerful force
+                    for positive change, fostering a community dedicated to
+                    making a difference.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <hr />
+
     <footer>
-      <p>© 2024 CauseNavigator. All rights reserved.</p>
-      <a href="https://github.com/mrataeran/CauseNavigator">Github</a>
+      <p>
+        © 2024 CauseNavigator. All rights reserved.
+        <a href="https://github.com/mrataeran/CauseNavigator">Github</a>
+      </p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
