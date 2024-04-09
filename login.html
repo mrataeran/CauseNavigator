@@ -39,7 +39,7 @@
     </header>
 
     <main>
-        <section class="h-100">
+        <form class="h-100">
             <div class="container py-5 h-100">
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col">
@@ -55,17 +55,17 @@
                                         <h3 class="mb-5 text-uppercase">Log In</h3>
 
                                         <div class="form-outline mb-4">
-                                            <input type="email" id="loginEmail" class="form-control form-control-lg" />
+                                            <input type="email" id="loginEmail" name="loginEmail" class="form-control form-control-lg" />
                                             <label class="form-label" for="loginEmail">Email Address</label>
                                         </div>
 
                                         <div class="form-outline mb-4">
-                                            <input type="password" id="loginPassword" class="form-control form-control-lg" />
+                                            <input type="password" id="loginPassword" name="loginPassword" class="form-control form-control-lg" />
                                             <label class="form-label" for="loginPassword">Password</label>
                                         </div>
 
                                         <div class="d-flex justify-content-end pt-3">
-                                            <button type="button" class="btn btn-light btn-lg">Cancel</button>
+                                            <button type="button" class="btn btn-light btn-lg" onclick="location.href='./signup.html'">Sign up</button>
                                             <button type="button" class="btn btn-warning btn-lg ms-2">Log In</button>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </form>
     </main>
     <footer>
         <p>© 2024 CauseNavigator. All rights reserved.</p>
