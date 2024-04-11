@@ -103,10 +103,18 @@
           <!-- Add more news items as needed -->
         </ul>
       </section>
+
+      <!-- Payment frame -->
+      <iframe id="paymentFrame" src="paymentFrame.html" style="width: 100%; height: 500px;" onload="showPaymentFrame()"></iframe>
+
+      <!-- Login/Signup buttons-->
+      <div id="loginOrSignupButtons">
+        <button type="button" class="btn btn-light btn-lg" onclick="location.href='./login.html'">Log in</button>
+        <button type="button" class="btn btn-warning btn-lg" onclick="location.href='./signup.html'">Sign Up </button>
+      </div>
       
-      <iframe src="paymentFrame.html" style="width: 100%; height: 500px;"></iframe>
     </main>
-    <footer>
+    <footer class="mt-5">
       <p>© 2024 CauseNavigator. All rights reserved.</p>
       <a href="https://github.com/mrataeran/CauseNavigator">Github</a>
     </footer>
@@ -116,5 +124,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/index.js"></script>
+    <script src="js/paymentFrame.js"></script>
   </body>
 </html>
