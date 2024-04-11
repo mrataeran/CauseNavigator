@@ -72,14 +72,15 @@
               </div>
               <div class="lc-block">
                 <div editable="rich">
-                  <form class="d-flex" role="search">
+                  <form class="d-flex" id="org-search" method="dialog" onsubmit="search()">
                     <input
                       class="form-control me-2"
                       type="search"
-                      placeholder="Leukemia, Refugees, Stray dogs..."
+                      id="searchBar"
+                      placeholder="(search 'Khan Academy' for testing) Leukemia, Refugees, Stray dogs..."
                       aria-label="Search"
                     />
-                    <button class="btn btn-outline-success" type="submit">
+                    <button class="btn btn-outline-success" id="searchSubmit" type="submit">
                       Search
                     </button>
                   </form>
@@ -166,5 +167,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script src="js/search.js"></script>
   </body>
 </html>
