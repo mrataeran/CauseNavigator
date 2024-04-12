@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let signupLink = document.getElementById("signupLink");
     let loginLink = document.getElementById("loginLink");
     let logoutLink = document.getElementById("logoutLink");
+    let profileLink = document.getElementById("profileLink");
     // Check if a user is logged in
     if (currentUser) {
         // Hide login and signup links
@@ -13,21 +14,20 @@ document.addEventListener("DOMContentLoaded", function() {
         signupLink.style.display = "none";
 
         // Add event listener to logout link
-        document.getElementById("logoutLink").addEventListener("click", function(event) {
-            // Prevent the default link behavior
-            event.preventDefault();
-            // Clear current user from session storage
-            sessionStorage.removeItem("currentUser");
-            // Redirect to login page
-            location.replace("login.html");
-        });
+        document.getElementById("logoutLink").addEventListener("click", logout);
     } else {
         // Hide profile and settings links if user is not logged in
         logoutLink.style.display = "none";
-        document.getElementById("profileLink").style.display = "none";
-        document.getElementById("settingsLink").style.display = "none";
+   //     profileLink.style.display = "none";
     }
 });
+
+function logout() {
+    // Clear current user from session storage
+    sessionStorage.removeItem("currentUser");
+    // Redirect to login page
+    location.replace("login.html");
+};
 
 // add Khan Academy as mock organization
 let organizations = JSON.parse(localStorage.getItem("organizations")) || [];
