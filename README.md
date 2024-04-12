@@ -50,7 +50,6 @@ WebSocket technology is integrated to support real-time data communication. This
 
 CauseNavigator utilizes React as a web framework to enhance the development of components and manage request routing. React enables the creation of reusable UI components, ensuring efficient and scalable development while facilitating seamless navigation within the app.
 
-```markdown
 ## ➡️HTML Deliverable
 
 - ⭐️ **HTML Pages**: Created a total of 10 HTML pages, encompassing key sections such as home, about, news, notifications, login, signup, profile, organization profile, and article pages, forming the backbone of the application's structure.
@@ -108,4 +107,3 @@ CauseNavigator utilizes React as a web framework to enhance the development of c
 - ⭐️ Implemented automatic update mechanism for the navbar to reflect the user's login status, providing a seamless and intuitive user experience.
 - ⭐️ Enhanced search functionality, allowing users to easily discover and donate to charities of their choice through intuitive search logic.
 - ⭐️ Revamped profile page with improved UI design and JavaScript animations, enhancing user experience and engagement.
-```
