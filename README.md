@@ -79,3 +79,32 @@ CauseNavigator utilizes React as a web framework to enhance the development of c
   - **Application Text Content:** Styled text content for readability and consistency, maintaining a harmonious visual flow throughout the application.
   - **Application Images:** Applied styles to enhance the presentation of images, creating a visually engaging experience for users.
 
+  ### JavaScript Deliverable
+
+#### Login/Signup:
+- Implemented robust login and signup functionality utilizing localStorage and sessionStorage APIs for efficient data management and user authentication.
+- Implemented secure logout functionality that removes the currentUser from sessionStorage, enhancing security and user privacy.
+
+#### Database Management:
+- Enhanced database management by storing user and charity information in localStorage, ensuring seamless access and updating based on user interactions such as donations.
+- Implemented optimized data updating mechanisms to ensure accurate and real-time reflection of donation transactions.
+
+#### Websocket Integration:
+- Integrated Websocket functionality to enable real-time updates for donation transactions and organization totals.
+- Implemented global donation update functionality, ensuring immediate updates to total donations of an organization as soon as a new donation is made, enhancing transparency and engagement.
+
+#### Donation Functionality:
+- Implemented intuitive donation logic, allowing users to effortlessly donate to their preferred charities.
+- Enhanced donation tracking by storing donation information in localStorage for both the donor and the charity, ensuring accurate record-keeping and transparency.
+
+#### Additional Features:
+- Future-proofed the application by integrating support for the news API, enabling seamless integration of real-time news updates into the service deliverable.
+- Implemented mock data and JavaScript functionalities for the news API, ensuring smooth transition to live data integration.
+- Implemented automatic update mechanism for the navbar to reflect the user's login status, providing a seamless and intuitive user experience.
+- Enhanced search functionality, allowing users to easily discover and donate to charities of their choice through intuitive search logic.
+- Revamped profile page with improved UI design and JavaScript animations, enhancing user experience and engagement.
+
+#### Conclusion:
+The JavaScript deliverable has been significantly enhanced and improved to provide a seamless, secure, and engaging user experience. From robust login/signup mechanisms to real-time donation updates and intuitive search functionality, every aspect of the application has been optimized for performance, usability, and future scalability.
+
+
