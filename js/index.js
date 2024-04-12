@@ -47,11 +47,5 @@ if (!organizations.find(org => org.name === khanAcademy.name)) {
     sessionStorage.setItem("currentOrganization", JSON.stringify(khanAcademy));
 }
 
-// // periodical mock donation, update total donations for organization
-// let currentOrganization = localStorage.getItem("currentOrganization").totalDonations += 100;
-// setTimeout(() => {
-//     currentOrganization.totalDonations += 100;
-//     localStorage.setItem("currentOrganization", JSON.stringify(currentOrganization));
-// }, 10000);
 
 
