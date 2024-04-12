@@ -3,8 +3,8 @@ function getCurrentProfile() {
     console.log(user);
     if (user) {
         document.getElementById("name").innerText = user.firstName + " " + user.lastName;
-        document.getElementById("email").innerText = user.email;
-        document.getElementById("totalDonations").innerText = moneyFormatter.format(user.totalDonations);
+        document.getElementById("emailLink").href = user.email;
+        document.getElementById("totalDonations").innerText = "Total donations: " + moneyFormatter.format(user.totalDonations);
     }
 }
 
@@ -18,3 +18,15 @@ const moneyFormatter = new Intl.NumberFormat('en-US', {
   });
 
 document.addEventListener("onLoad", getCurrentProfile());
+
+let enableNight = () => {
+    var body = document.getElementById("body");
+  
+    if (body.classList.contains('theme--light')){
+        body.classList.remove('theme--light');
+        body.classList.add('theme--dark');
+    }else{
+        body.classList.remove('theme--dark');
+        body.classList.add('theme--light');
+    }
+}
