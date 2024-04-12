@@ -97,11 +97,9 @@ CauseNavigator utilizes React as a web framework to enhance the development of c
 - ⭐️ Integrated Websocket functionality to enable real-time updates for donation transactions and organization totals.
 - ⭐️ Implemented global donation update functionality, ensuring immediate updates to total donations of an organization as soon as a new donation is made, enhancing transparency and engagement.
 
-#### Donation Functionality:
+#### App Functionality:
 - ⭐️ Implemented intuitive donation logic, allowing users to effortlessly donate to their preferred charities.
 - ⭐️ Enhanced donation tracking by storing donation information in localStorage for both the donor and the charity, ensuring accurate record-keeping and transparency.
-
-#### Additional Features:
 - ⭐️ Future-proofed the application by integrating support for the news API, enabling seamless integration of real-time news updates into the service deliverable.
 - ⭐️ Implemented mock data and JavaScript functionalities for the news API, ensuring smooth transition to live data integration.
 - ⭐️ Implemented automatic update mechanism for the navbar to reflect the user's login status, providing a seamless and intuitive user experience.
