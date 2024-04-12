@@ -64,16 +64,13 @@ CauseNavigator utilizes React as a web framework to enhance the development of c
 
 - **WebSocket Integration**: Leveraged WebSocket technology to introduce real-time notifications and dynamic news functionality. Users can stay informed with instant updates, enhancing the overall interactivity of the application.
 
-# CSS Deliverable
 
-## CSS Deployment
+## CSS Deliverable
 - **CSS Deployment:** Successfully deployed the Simon CSS to the production environment, enhancing the visual aesthetics and user interface of the startup application.
 - **GitHub Repository Link:** The GitHub repository for the startup application is prominently displayed on the home page. Users and developers can easily access the repository to explore the source code, contribute, and stay informed about updates.
 - **Git Repository Modifications:**
   - Commits: Maintained a consistent and well-documented history with at least 10 git commits spread throughout the assignment period.
   - README.md: Updated the README file to reflect the completion of the CSS deliverable, providing clear information on the modifications and additions made.
-
-## CSS Styling Overview
 - **Properly Styled CSS:**
   - **Header, Footer, and Main Content Body:** Applied styles to ensure a visually appealing and cohesive design across the entire application, creating a unified look for the header, footer, and main content body.
   - **Navigation Elements:** Styled navigation elements for clarity and responsiveness, ensuring an intuitive user experience.
