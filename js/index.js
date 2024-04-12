@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
         // Hide profile and settings links if user is not logged in
         logoutLink.style.display = "none";
-   //     profileLink.style.display = "none";
+        profileLink.style.display = "none";
     }
 });
 
