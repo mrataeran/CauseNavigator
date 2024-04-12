@@ -50,61 +50,62 @@ WebSocket technology is integrated to support real-time data communication. This
 
 CauseNavigator utilizes React as a web framework to enhance the development of components and manage request routing. React enables the creation of reusable UI components, ensuring efficient and scalable development while facilitating seamless navigation within the app.
 
-## HTML Deliverable
+```markdown
+## ➡️HTML Deliverable
 
-- **HTML Pages**: Created a total of 10 HTML pages, encompassing key sections such as home, about, news, notifications, login, signup, profile, organization profile, and article pages, forming the backbone of the application's structure.
+- ⭐️ **HTML Pages**: Created a total of 10 HTML pages, encompassing key sections such as home, about, news, notifications, login, signup, profile, organization profile, and article pages, forming the backbone of the application's structure.
 
-- **Interconnected Navigation**: Established a seamless user experience by integrating all pages through a cohesive navigation bar. Users can effortlessly navigate between different sections, promoting intuitive exploration.
+- ⭐️ **Interconnected Navigation**: Established a seamless user experience by integrating all pages through a cohesive navigation bar. Users can effortlessly navigate between different sections, promoting intuitive exploration.
 
-- **Textual Content**: Ensured comprehensive information across all HTML pages, delivering the necessary textual content to provide users with a complete understanding of each section.
+- ⭐️ **Textual Content**: Ensured comprehensive information across all HTML pages, delivering the necessary textual content to provide users with a complete understanding of each section.
 
-- **Visual Enhancements with Images**: Incorporated user and organization profile pictures, enhancing the visual appeal of the application and contributing to a more engaging user interface.
+- ⭐️ **Visual Enhancements with Images**: Incorporated user and organization profile pictures, enhancing the visual appeal of the application and contributing to a more engaging user interface.
 
-- **User Authentication**: Implemented individual signup and login forms, contributing to a secure and personalized user experience. These forms facilitate user account creation and authentication processes.
+- ⭐️ **User Authentication**: Implemented individual signup and login forms, contributing to a secure and personalized user experience. These forms facilitate user account creation and authentication processes.
 
-- **WebSocket Integration**: Leveraged WebSocket technology to introduce real-time notifications and dynamic news functionality. Users can stay informed with instant updates, enhancing the overall interactivity of the application.
+- ⭐️ **WebSocket Integration**: Leveraged WebSocket technology to introduce real-time notifications and dynamic news functionality. Users can stay informed with instant updates, enhancing the overall interactivity of the application.
 
 
-## CSS Deliverable
-- **CSS Deployment:** Successfully deployed the Simon CSS to the production environment, enhancing the visual aesthetics and user interface of the startup application.
-- **GitHub Repository Link:** The GitHub repository for the startup application is prominently displayed on the home page. Users and developers can easily access the repository to explore the source code, contribute, and stay informed about updates.
-- **Git Repository Modifications:**
-  - Commits: Maintained a consistent and well-documented history with at least 10 git commits spread throughout the assignment period.
-  - README.md: Updated the README file to reflect the completion of the CSS deliverable, providing clear information on the modifications and additions made.
-- **Properly Styled CSS:**
-  - **Header, Footer, and Main Content Body:** Applied styles to ensure a visually appealing and cohesive design across the entire application, creating a unified look for the header, footer, and main content body.
-  - **Navigation Elements:** Styled navigation elements for clarity and responsiveness, ensuring an intuitive user experience.
-  - **Responsive Design:** Implemented responsive styles to adapt the application to varying window sizes, enhancing accessibility and usability.
-  - **Application Elements:** Ensured consistent and visually appealing styles for application elements, contributing to a polished and professional appearance.
-  - **Application Text Content:** Styled text content for readability and consistency, maintaining a harmonious visual flow throughout the application.
-  - **Application Images:** Applied styles to enhance the presentation of images, creating a visually engaging experience for users.
+## ➡️CSS Deliverable
 
-  ### JavaScript Deliverable
+- ⭐️ **CSS Deployment:** Successfully deployed the Simon CSS to the production environment, enhancing the visual aesthetics and user interface of the startup application.
+
+- ⭐️ **GitHub Repository Link:** The GitHub repository for the startup application is prominently displayed on the home page. Users and developers can easily access the repository to explore the source code, contribute, and stay informed about updates.
+
+- ⭐️ **Git Repository Modifications:**
+  - ⭐️ Commits: Maintained a consistent and well-documented history with at least 10 git commits spread throughout the assignment period.
+  - ⭐️ README.md: Updated the README file to reflect the completion of the CSS deliverable, providing clear information on the modifications and additions made.
+  
+- ⭐️ **Properly Styled CSS:**
+  - ⭐️ **Header, Footer, and Main Content Body:** Applied styles to ensure a visually appealing and cohesive design across the entire application, creating a unified look for the header, footer, and main content body.
+  - ⭐️ **Navigation Elements:** Styled navigation elements for clarity and responsiveness, ensuring an intuitive user experience.
+  - ⭐️ **Responsive Design:** Implemented responsive styles to adapt the application to varying window sizes, enhancing accessibility and usability.
+  - ⭐️ **Application Elements:** Ensured consistent and visually appealing styles for application elements, contributing to a polished and professional appearance.
+  - ⭐️ **Application Text Content:** Styled text content for readability and consistency, maintaining a harmonious visual flow throughout the application.
+  - ⭐️ **Application Images:** Applied styles to enhance the presentation of images, creating a visually engaging experience for users.
+
+## ➡️JavaScript Deliverable
 
 #### Login/Signup:
-- Implemented robust login and signup functionality utilizing localStorage and sessionStorage APIs for efficient data management and user authentication.
-- Implemented secure logout functionality that removes the currentUser from sessionStorage, enhancing security and user privacy.
+- ⭐️ Implemented robust login and signup functionality utilizing localStorage and sessionStorage APIs for efficient data management and user authentication.
+- ⭐️ Implemented secure logout functionality that removes the currentUser from sessionStorage, enhancing security and user privacy.
 
 #### Database Management:
-- Enhanced database management by storing user and charity information in localStorage, ensuring seamless access and updating based on user interactions such as donations.
-- Implemented optimized data updating mechanisms to ensure accurate and real-time reflection of donation transactions.
+- ⭐️ Enhanced database management by storing user and charity information in localStorage, ensuring seamless access and updating based on user interactions such as donations.
+- ⭐️ Implemented optimized data updating mechanisms to ensure accurate and real-time reflection of donation transactions.
 
 #### Websocket Integration:
-- Integrated Websocket functionality to enable real-time updates for donation transactions and organization totals.
-- Implemented global donation update functionality, ensuring immediate updates to total donations of an organization as soon as a new donation is made, enhancing transparency and engagement.
+- ⭐️ Integrated Websocket functionality to enable real-time updates for donation transactions and organization totals.
+- ⭐️ Implemented global donation update functionality, ensuring immediate updates to total donations of an organization as soon as a new donation is made, enhancing transparency and engagement.
 
 #### Donation Functionality:
-- Implemented intuitive donation logic, allowing users to effortlessly donate to their preferred charities.
-- Enhanced donation tracking by storing donation information in localStorage for both the donor and the charity, ensuring accurate record-keeping and transparency.
+- ⭐️ Implemented intuitive donation logic, allowing users to effortlessly donate to their preferred charities.
+- ⭐️ Enhanced donation tracking by storing donation information in localStorage for both the donor and the charity, ensuring accurate record-keeping and transparency.
 
 #### Additional Features:
-- Future-proofed the application by integrating support for the news API, enabling seamless integration of real-time news updates into the service deliverable.
-- Implemented mock data and JavaScript functionalities for the news API, ensuring smooth transition to live data integration.
-- Implemented automatic update mechanism for the navbar to reflect the user's login status, providing a seamless and intuitive user experience.
-- Enhanced search functionality, allowing users to easily discover and donate to charities of their choice through intuitive search logic.
-- Revamped profile page with improved UI design and JavaScript animations, enhancing user experience and engagement.
-
-#### Conclusion:
-The JavaScript deliverable has been significantly enhanced and improved to provide a seamless, secure, and engaging user experience. From robust login/signup mechanisms to real-time donation updates and intuitive search functionality, every aspect of the application has been optimized for performance, usability, and future scalability.
-
-
+- ⭐️ Future-proofed the application by integrating support for the news API, enabling seamless integration of real-time news updates into the service deliverable.
+- ⭐️ Implemented mock data and JavaScript functionalities for the news API, ensuring smooth transition to live data integration.
+- ⭐️ Implemented automatic update mechanism for the navbar to reflect the user's login status, providing a seamless and intuitive user experience.
+- ⭐️ Enhanced search functionality, allowing users to easily discover and donate to charities of their choice through intuitive search logic.
+- ⭐️ Revamped profile page with improved UI design and JavaScript animations, enhancing user experience and engagement.
+```
