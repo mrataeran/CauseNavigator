@@ -29,7 +29,7 @@ function logout() {
     location.replace("login.html");
 };
 
-// add Khan Academy as mock organization
+// add Khan Academy as mock organization if it does not exist
 let organizations = JSON.parse(localStorage.getItem("organizations")) || [];
 let khanAcademy = {
     name: "Khan Academy",
@@ -38,7 +38,20 @@ let khanAcademy = {
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khan_Academy_logo_%282018%29.svg/2560px-Khan_Academy_logo_%282018%29.svg.png",
     totalDonations: 0
 }
+
 // set as current organization
-localStorage.setItem("currentOrganization", JSON.stringify(khanAcademy));
-organizations.push(khanAcademy);
-localStorage.setItem("organizations", JSON.stringify(organizations));
+// if organization does not exist, add it
+if (!organizations.find(org => org.name === khanAcademy.name)) {
+    organizations.push(khanAcademy);
+    localStorage.setItem("organizations", JSON.stringify(organizations));
+    sessionStorage.setItem("currentOrganization", JSON.stringify(khanAcademy));
+}
+
+// // periodical mock donation, update total donations for organization
+// let currentOrganization = localStorage.getItem("currentOrganization").totalDonations += 100;
+// setTimeout(() => {
+//     currentOrganization.totalDonations += 100;
+//     localStorage.setItem("currentOrganization", JSON.stringify(currentOrganization));
+// }, 10000);
+
+

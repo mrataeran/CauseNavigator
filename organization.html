@@ -12,7 +12,6 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script async defer src="https://embeds.every.org/0.4/button.js"></script>
-
   </head>
   <body>
     <header>
@@ -49,13 +48,17 @@
                 <a class="nav-link" href="news.html">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="signupLink" href="signup.html">Sign up</a>
+                <a class="nav-link" id="signupLink" href="signup.html"
+                  >Sign up</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="loginLink" href="login.html">Log in</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="profileLink" href="profile.html">Profile</a>
+                <a class="nav-link" id="profileLink" href="profile.html"
+                  >Profile</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="logoutLink">Log out</a>
@@ -79,43 +82,43 @@
           world-class education for anyone, anywhere.
         </p>
         <div id="org-vid">
-          <video autoplay muted controls  width="10%">
+          <video autoplay muted controls width="10%">
             <source src="images/khan intro.mp4" type="video/mp4" />
           </video>
         </div>
       </section>
 
-
-      <section id="org-latest-news">
-        <h2>Latest News</h2>
-        <ul>
-          <li>
-            <h3>Expansion of Courses</h3>
-            <p>
-              Introducing new courses to further enhance the learning
-              experience.
-            </p>
-          </li>
-          <li>
-            <h3>Community Outreach</h3>
-            <p>
-              Partnering with local schools to bring education to underserved
-              communities.
-            </p>
-          </li>
-          <!-- Add more news items as needed -->
-        </ul>
+      <!-- Total donations -->
+      <section id="org-total-donations" style="text-align: center;">
+        <h2>Total Donations</h2>
+        <h3 id="total-donations">$0</h3>
       </section>
 
       <!-- Payment frame -->
-      <iframe id="paymentFrame" src="paymentFrame.html" style="width: 100%; height: 500px;" onload="showPaymentFrame()"></iframe>
+      <iframe
+        id="paymentFrame"
+        src="paymentFrame.html"
+        style="width: 100%; height: 500px"
+        onload="showPaymentFrame()"
+      ></iframe>
 
       <!-- Login/Signup buttons-->
       <div id="loginOrSignupButtons">
-        <button type="button" class="btn btn-light btn-lg" onclick="location.href='./login.html'">Log in</button>
-        <button type="button" class="btn btn-warning btn-lg" onclick="location.href='./signup.html'">Sign Up </button>
+        <button
+          type="button"
+          class="btn btn-light btn-lg"
+          onclick="location.href='./login.html'"
+        >
+          Log in
+        </button>
+        <button
+          type="button"
+          class="btn btn-warning btn-lg"
+          onclick="location.href='./signup.html'"
+        >
+          Sign Up
+        </button>
       </div>
-      
     </main>
     <footer class="mt-5">
       <p>© 2024 CauseNavigator. All rights reserved.</p>
@@ -128,5 +131,10 @@
     ></script>
     <script src="js/index.js"></script>
     <script src="js/paymentFrame.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        updateTotalDonationsUI();
+      });
+    </script>
   </body>
 </html>
